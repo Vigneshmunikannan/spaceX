@@ -1,0 +1,47 @@
+/* AboutUs.css */
+
+.about-us-container {
+    max-width: 1200px;
+    margin: 0px auto;
+    line-height: 1.5;
+  }
+  .about-company,
+  .management-team,
+  .factory-and-products,
+  .mission-vision {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .about-company img,
+  .management-team img,
+  .factory-and-products img {
+    width: 50%; /* Adjust the width of the images */
+    height: auto;
+  }
+  
+  .company-info,
+  .team-info,
+  .factory-info,
+  .mission-info,
+  .vision-info {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .about-company,
+    .management-team,
+    .factory-and-products,
+    .mission-vision {
+      flex-direction: column;
+    }
+
+    .about-company img,
+    .management-team img,
+    .factory-and-products img {
+      width: 100%;
+    }
+  }
+  
